@@ -1,0 +1,291 @@
+/* COLOR SCHEME: Gettysburg */
+
+header, section, footer, aside, nav, main, article, figure{
+  display: block;
+}
+
+
+
+header{
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: black;
+  background-image: url('Miata_Background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0 0;
+}
+
+
+nav{
+  margin: auto;
+  text-align:center;
+  background-color: #979C9C;
+  padding: 5px 10px;
+  font-size: 14pt;
+  font-weight: bold;
+  box-shadow: 0 10px 5px -5px #962D3E;
+  position: relative;
+}
+
+nav a {
+  color: #343642;
+  text-decoration: none;
+  transition:background-color 0.25s ease, color0.25s ease;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+main{
+  text-align:center;
+  margin: auto;
+  background-color: #F2EBC7;
+  padding: 10px;
+  z-index: 0;
+}
+main a{
+  color: #17354A;
+}
+
+
+body{
+  font-family: Calibri, Helvetica, Arial, sans-serif;
+  background-color: #348899;
+}
+
+
+footer{
+
+  background-color: #343642;
+  padding: 5px 10px;
+  font-size: 10pt;
+  font-style: italic;
+  border-radius: 0 0 10px 10px;
+}
+footer a{
+  color: white;
+}
+
+
+h1{
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 42pt;
+  line-height: 36pt;
+  font-weight: lighter;
+}
+
+
+h2{
+  margin: 0;
+  padding: 0 10px 5px 10px;
+  font-size: 18pt;
+  line-height: 22pt;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+
+h3{
+  font-size: 24pt;
+  font-weight: lighter;
+  margin: 0;
+}
+
+
+main table{
+  border: 1px solid #962D3E;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+main td{
+  border: 1px solid #962D3E;
+  padding: 5px;
+}
+main th{
+  border: 1px solid #962D3E;
+  padding: 5px;
+  background-color: #962D3E;
+  color: #F2EBC7;
+  text-align: left;
+}
+
+
+label{
+  display: block;
+  float: left;
+  width: 150px;
+  font-weight: bold; 
+}
+
+input, textarea, select{
+  display: block;
+  width: 300px;
+  margin-bottom: 5px;
+  margin-left: 150px;
+}
+
+textarea{
+  height: 75px;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.gallery{
+  text-align: center;
+}
+
+.gallery figure{
+  margin: 10px 20px 10px 20px;
+  width: 150px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.gallery figcaption{
+  text-align: center;
+  font-size: 11pt;
+}
+
+.gallery img:hover{
+  transform: rotate(5deg) scale(1.1);
+  transition-duration: .25s;
+  box-shadow: 5px 5px 10px #000000;
+}
+
+.gallery img{
+  transition-duration: .25s;
+}
+
+
+.details{
+  float: right;
+  padding: 5px 10px;
+  color: #F2EBC7;
+  background-color: #962D3E;
+}
+
+.school img{
+  float: left;
+}
+
+.school h3{
+  margin: 0 0 0 120px;
+  text-align: left;
+}
+
+.school h4{
+  font-size: 14pt;
+  font-weight: lighter;
+  margin: 0 0 0 120px;
+  text-align: left;
+}
+
+.school ul{
+  margin: 0 0 0 120px;
+}
+
+.experience, .school{
+  border-left: 10px solid #000000;
+  border-top: 1px dashed #000000;
+  border-right: 1px dashed #000000;
+  border-bottom: 1px dashed #000000;
+  margin: 20px;
+  padding: 5px 10px 5px 10px;
+  overflow: auto;
+  
+}
+
+.experience h4{
+  font-size: 18pt;
+  font-weight: lighter;
+  margin: 0;
+  text-align: left;
+}
+
+.experience .title {
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.experience .dates{
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: bold;
+  float: right;
+}
+
+.experience .description{
+  font-size: 11pt;
+}
+
+.experience .ul{
+  margin: 0;
+}
+
+.experience .responsibilites{
+  font-size: 10pt;
+  -webkit-column-count: 1;
+  -ms-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;  
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li{
+  display: inline;
+  margin-right: 10px;
+}
+nav a:hover{
+  color: #F2EBC7;
+  background-color: #962D3E;
+  transition:background-color 0.25s ease, color0.25s ease;
+}
+
+#wrapper{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+
+.img-Miata img{
+  border-radius: 4px;
+  width: 500px;
+}
+
+.Portrait img{
+  border-radius: 4px;
+  width: 250px;
+  float: right;
+}
+
+.AugustaUni img{
+  width: 100px;
+  height: 100px;
+}
+
+.GreenBrier img{
+  width: 100px;
+  height: 100px;
+}
+
+.Accomp{
+ text-align:left;
+ padding: 20px;
+}

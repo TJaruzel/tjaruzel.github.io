@@ -46,13 +46,15 @@ nav a:active{
 }
 
 label{
-  display: block;
   width: 75px;
   font-weight: bold;
   text-align: left; 
 }
+
 input, textarea, select{
-  width: 60%;
+  width: 50%;
+  text-align: left;
+  display: block;
 }
 
 .gallery figure{

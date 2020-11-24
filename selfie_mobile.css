@@ -48,7 +48,8 @@ nav a:active{
 label{
   display: block;
   width: 150px;
-  font-weight: bold; 
+  font-weight: bold;
+  text-align: left; 
 }
 input, textarea, select{
   width: 60%;
